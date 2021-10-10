@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pdfview2" type="id" />
+    <item name="btn3" type="id" />
+    <item name="pdfview4" type="id" />
+    <item name="myWebView2" type="id" />
+    <item name="myWebView3" type="id" />
+    <item name="myWebView4" type="id" />
+    <item name="pdfview" type="id" />
+</resources>

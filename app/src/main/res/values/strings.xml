@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="notes">Notes</string>
+    <string name="java_2">Java 2</string>
+    <string name="java_1">Java 1</string>
+    <string name="dsa">DSA</string>
+    <string name="oops_in_java">OOPs in Java</string>
+    <string name="todo">TODO</string>
+    <string name="button_4">button 4</string>
+    <string name="button_5">button 5</string>
+    <string name="button_6">button 6</string>
+    <string name="button_7">button 7</string>
+    <string name="button_8">button 8</string>
+    <string name="android">Android</string>
+    <string name="basics_of_java">BASICS OF JAVA</string>
+    <string name="oop_in_java">OOP IN JAVA</string>
+    <string name="data_struc_and_algo_in_c">DATA STRUC. AND ALGO. IN C</string>
+    <string name="android_in_java">ANDROID IN JAVA</string>
+</resources>
