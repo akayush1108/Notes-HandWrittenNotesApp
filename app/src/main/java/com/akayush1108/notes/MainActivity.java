@@ -1,8 +1,10 @@
 package com.akayush1108.notes;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActionBar;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -18,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     Button button2;
     Button button3;
     Button button4;
-    String url1 = "https://raw.githubusercontent.com/akayush1108/Data_Structures_codes/master/20210630_111845_0000.png";
-    String url2 = "https://raw.githubusercontent.com/akayush1108/Data_Structures_codes/master/InShot_20211009_040554227.jpg";
-    String url3 = "https://raw.githubusercontent.com/akayush1108/Data_Structures_codes/master/20211009_035611_0001.png";
+    String url1 = "https://raw.githubusercontent.com/akayush1108/Notes-HandWrittenNotesApp/master/screenshots/slider1.png";
+    String url2 = "https://raw.githubusercontent.com/akayush1108/Notes-HandWrittenNotesApp/master/screenshots/slider2.jpg";
+    String url3 = "https://raw.githubusercontent.com/akayush1108/Notes-HandWrittenNotesApp/master/screenshots/slider3.png";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,34 +34,18 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<SliderData> sliderDataArrayList = new ArrayList<>();
 
-        // initializing the slider view.
         SliderView sliderView = findViewById(R.id.slider);
 
-        // adding the urls inside array list
+
         sliderDataArrayList.add(new SliderData(url1));
         sliderDataArrayList.add(new SliderData(url2));
         sliderDataArrayList.add(new SliderData(url3));
 
-        // passing this array list inside our adapter class.
         SliderAdapter adapter = new SliderAdapter(this, sliderDataArrayList);
-
-        // below method is used to set auto cycle direction in left to
-        // right direction you can change according to requirement.
         sliderView.setAutoCycleDirection(SliderView.LAYOUT_DIRECTION_LTR);
-
-        // below method is used to
-        // setadapter to sliderview.
         sliderView.setSliderAdapter(adapter);
-
-        // below method is use to set
-        // scroll time in seconds.
         sliderView.setScrollTimeInSec(3);
-
-        // to set it scrollable automatically
-        // we use below method.
         sliderView.setAutoCycle(true);
-
-        // to start autocycle below method is used.
         sliderView.startAutoCycle();
 
 
@@ -104,7 +90,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
 
+    @Override
+    public void onBackPressed()
+    {
+        AlertDialog.Builder builder= new AlertDialog.Builder(MainActivity.this);
 
+        builder.setTitle("Alert")
+                .setMessage("Do you want to close this application?")
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        MainActivity.super.onBackPressed();
+                    }
+                })
+                .setNegativeButton("Cancel",null);
+        AlertDialog alert = builder.create();
+        alert.show();
     }
 }
