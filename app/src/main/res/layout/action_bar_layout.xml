@@ -14,6 +14,7 @@
         android:fontFamily="@font/peralta"
         android:gravity="center"
         android:inputType="none"
+        android:editable="false"
         android:text="@string/notes"
         android:textColor="@color/white"
         android:textColorLink="#FFF"

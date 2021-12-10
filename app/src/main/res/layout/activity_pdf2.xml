@@ -7,12 +7,19 @@
     android:layout_height="match_parent"
     tools:context=".PdfActivity2">
 
-    <WebView
-        android:id="@+id/myWebView2"
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/abc2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" />
+        android:layout_height="match_parent" />
+
+
+<!--    <WebView-->
+<!--        android:id="@+id/myWebView2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp" />-->
 
 
 </LinearLayout>

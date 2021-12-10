@@ -6,9 +6,8 @@
 
     <ImageView
         android:id="@+id/myimage"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_centerHorizontal="true"
         android:contentDescription="@string/app_name" />
 
 </LinearLayout>

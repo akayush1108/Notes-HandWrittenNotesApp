@@ -7,18 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".PdfActivity1">
 
-    <WebView
-        android:id="@+id/myWebView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp" />
-
-
-<!--    <com.github.barteksc.pdfviewer.PDFView-->
-<!--        android:id="@+id/pdfview"-->
+<!--    <WebView-->
+<!--        android:id="@+id/myWebView"-->
 <!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent" />-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp" />-->
+
+
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
 
 <!--    </com.github.barteksc.pdfviewer.PDFView>-->
 
