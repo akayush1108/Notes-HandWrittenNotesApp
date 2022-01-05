@@ -19,11 +19,11 @@ https://drive.google.com/file/d/1MGifgfO1OaEHy7la_sYrSsJa7pUmeKF6/view?usp=shari
 ## App Screenshots
 
 <a href="">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1639146084.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1.png"
 align="left"
 height="500"
 width="250">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1639146121.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_2.png"
 align="left"
 height="500"
 width="250">
