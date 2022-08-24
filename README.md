@@ -19,27 +19,27 @@ https://drive.google.com/file/d/1MGifgfO1OaEHy7la_sYrSsJa7pUmeKF6/view?usp=shari
 ## App Screenshots
 
 <a href="">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/main/screenshots/Screenshot_1.png?raw=true"
 align="left"
 height="500"
 width="250">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_2.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/main/screenshots/Screenshot_2.png?raw=true"
 align="left"
 height="500"
 width="250">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1639145072.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/main/screenshots/Screenshot_1639145072.png?raw=true"
 align="left"
 height="500"
 width="250">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1639146220.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/main/screenshots/Screenshot_1639146220.png?raw=true"
 align="left"
 height="500"
 width="250">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1639146340.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/main/screenshots/Screenshot_1639146340.png?raw=true"
 align="left"
 height="500"
 width="250">
-<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/master/screenshots/Screenshot_1639146381.png"
+<img src="https://github.com/akayush1108/Notes-HandWrittenNotesApp/blob/main/screenshots/Screenshot_1639146381.png?raw=true"
 align="left"
 height="500"
 width="250">
