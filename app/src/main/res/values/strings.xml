@@ -16,4 +16,16 @@
     <string name="oop_in_java">OOP IN JAVA</string>
     <string name="data_struc_and_algo_in_c">DATA STRUC. AND ALGO. IN C</string>
     <string name="android_in_java">ANDROID IN JAVA</string>
+    <string name="soft_eng">Soft. Eng.</string>
+    <string name="software_engineering">SOFTWARE ENGINEERING</string>
+    <string name="android_in_java_kotlin">ANDROID IN JAVA/KOTLIN</string>
+    <string name="daa">DAA</string>
+    <string name="data_struc_amp_algo_in_c"><![CDATA[DATA STRUC. & ALGO IN C]]></string>
+    <string name="design_amp_analysis_of_algorithms"><![CDATA[DESIGN & ANALYSIS OF ALGORITHMS]]></string>
+    <string name="comp_organisation_amp_architecture"><![CDATA[COMP. ORGANISATION & ARCHITECTURE]]></string>
+    <string name="co_amp_ca"><![CDATA[CO & CA]]></string>
+    <string name="news_app">News App</string>
+    <string name="dbms">DBMS</string>
+    <string name="database_management_system">DATABASE MANAGEMENT SYSTEM</string>
+    <string name="data_struc_amp_algo_in_java"><![CDATA[DATA STRUC. & ALGO. IN JAVA]]></string>
 </resources>
