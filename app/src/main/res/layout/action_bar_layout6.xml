@@ -15,7 +15,7 @@
         android:gravity="start"
         android:background="@null"
         android:inputType="none"
-        android:text="@string/dsa"
+        android:text="@string/daa"
         android:textColor="@color/white"
         android:textColorLink="#FFF"
         android:textSize="24sp"

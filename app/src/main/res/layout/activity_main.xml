@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/animal"
     tools:context=".MainActivity" >
 
         <com.smarteist.autoimageslider.SliderView
             android:id="@+id/slider"
             android:layout_width="match_parent"
-            android:layout_height="260dp"
+            android:layout_height="300dp"
             app:sliderAnimationDuration="600"
             app:sliderAutoCycleDirection="back_and_forth"
             app:sliderIndicatorAnimationDuration="600"
@@ -27,15 +27,16 @@
 
 
         <ScrollView
-            android:layout_marginTop="300dp"
+            android:id="@+id/scrollView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/scrollView">
+            android:layout_marginTop="300dp">
+
 
                 <LinearLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                         <Button
                             android:id="@+id/btn"
@@ -54,9 +55,9 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:text="@string/basics_of_java"
-                            android:textStyle="bold"
                             android:textColor="@color/teal_700"
-                            android:textSize="18sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
                         <Button
@@ -76,9 +77,9 @@
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
                             android:text="@string/oop_in_java"
-                            android:textStyle="bold"
                             android:textColor="@color/teal_700"
-                            android:textSize="18sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <Button
                             android:id="@+id/btn3"
@@ -97,10 +98,32 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
-                            android:text="@string/data_struc_and_algo_in_c"
-                            android:textStyle="bold"
+                            android:text="@string/data_struc_amp_algo_in_java"
                             android:textColor="@color/teal_700"
-                            android:textSize="18sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="40dp"
+                            android:text="OS"
+                            android:textStyle="bold|italic"
+                            app:backgroundTint="#009688" />
+
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="OPERATING SYSTEM"
+                            android:textColor="@color/teal_700"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <Button
                             android:id="@+id/btn4"
@@ -118,10 +141,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="10dp"
-                            android:text="@string/android_in_java"
-                            android:textStyle="bold"
+                            android:text="@string/android_in_java_kotlin"
                             android:textColor="@color/teal_700"
-                            android:textSize="18sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <Button
                             android:id="@+id/btn5"
@@ -129,45 +152,99 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="40dp"
-                            android:text="@string/button_5"
+                            android:text="@string/soft_eng"
                             android:textStyle="bold|italic"
                             app:backgroundTint="#009688" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/software_engineering"
+                            android:textColor="@color/teal_700"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <Button
                             android:id="@+id/btn6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:layout_gravity="center"
                             android:layout_marginTop="40dp"
-                            android:text="@string/button_6"
+                            android:text="@string/daa"
                             android:textStyle="bold|italic"
                             app:backgroundTint="#009688" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/design_amp_analysis_of_algorithms"
+                            android:textColor="@color/teal_700"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <Button
                             android:id="@+id/btn7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
                             android:layout_gravity="center"
                             android:layout_marginTop="40dp"
-                            android:text="@string/button_7"
+                            android:text="@string/co_amp_ca"
                             android:textStyle="bold|italic"
                             app:backgroundTint="#009688" />
 
-                        <Button
-                            android:id="@+id/btn8"
+                        <TextView
+                            android:id="@+id/textView7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/comp_organisation_amp_architecture"
+                            android:textColor="@color/teal_700"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
+                        <Button
+                            android:id="@+id/btn9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginTop="40dp"
-                            android:text="@string/button_8"
+                            android:text="@string/dbms"
                             android:textStyle="bold|italic"
                             app:backgroundTint="#009688" />
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+
+                            android:text="@string/database_management_system"
+                            android:textColor="@color/teal_700"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="45dp"
+                            android:layout_marginBottom="25dp"
+                            android:text="@string/news_app"
+                            android:textStyle="bold|italic"
+                            app:backgroundTint="#F44336" />
 
 
                 </LinearLayout>
+
 
         </ScrollView>
 
