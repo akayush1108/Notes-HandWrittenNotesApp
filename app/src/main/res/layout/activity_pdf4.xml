@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PdfActivity4">
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/abc4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+<!--    <WebView-->
+<!--        android:id="@+id/myWebView4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp" />-->
+
+<!--    <com.github.barteksc.pdfviewer.PDFView-->
+<!--        android:id="@+id/pdfview4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" >-->
+
+<!--    </com.github.barteksc.pdfviewer.PDFView>-->
+
+</LinearLayout>
